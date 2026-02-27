@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'webapp.wsgi.application'
 
 DATABASES = {
 "default": {
-        "ENGINE": "mysql.connector.django",
+        "ENGINE": "django.db.backends.mysql",
         "NAME": "smart_inventory",
         "USER": "root",
         "PASSWORD": "jassmof7",
